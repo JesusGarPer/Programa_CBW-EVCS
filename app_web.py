@@ -49,9 +49,15 @@ def generate_source_images(n, secret_text, cover_text):
         img = Image.new('1', (600, 400), color=1) 
         draw = ImageDraw.Draw(img)
         try:
+            # 1. Intentar Arial (Windows standard)
             font = ImageFont.truetype("arial.ttf", 100 if is_secret else 80)
-        except:
-            font = ImageFont.load_default()
+        except IOError:
+            try:
+                # 2. Intentar DejaVuSans (Linux/Streamlit Cloud standard)
+                font = ImageFont.truetype("DejaVuSans.ttf", 100 if is_secret else 80)
+            except IOError:
+                # 3. Último recurso (Se verá pequeño, pero no hay otra opción sin subir archivo)
+                font = ImageFont.load_default()
         
         # Centrado compatible
         try:
