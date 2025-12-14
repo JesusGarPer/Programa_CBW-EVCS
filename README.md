@@ -43,7 +43,7 @@ La herramienta incluye 6 construcciones diferentes según las necesidades de seg
 
 ## 📸 Capturas de Pantalla
 
-![Vista de la Web](image.png)
+![Vista de la Web](screenshots/image.png)
 
 ---
 
