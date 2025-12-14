@@ -1,5 +1,3 @@
-# Programa_CBW-EVCS
-Programa destinado a la representación visual del trabajo #1 de Criptografía.
 # 🔐 CBW-EVCS: Criptografía Visual a Color
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://programacbw-evcs-umsrjfsekma3qcjjqbyalc.streamlit.app/)
