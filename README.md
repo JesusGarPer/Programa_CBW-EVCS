@@ -43,8 +43,7 @@ La herramienta incluye 6 construcciones diferentes según las necesidades de seg
 
 ## 📸 Capturas de Pantalla
 
-![Interfaz Web](https://via.placeholder.com/800x400?text=Captura+de+la+Interfaz+Web+aqui)
-*(La interfaz permite configurar textos, elegir algoritmos y visualizar la reconstrucción)*
+image.png
 
 ---
 
@@ -54,8 +53,8 @@ Si prefieres ejecutar el proyecto en tu propio ordenador:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[TU_USUARIO]/[NOMBRE_DEL_REPO].git
-    cd [NOMBRE_DEL_REPO]
+    git clone https://github.com/JesusGarPer/Programa_CBW-EVCS.git
+    cd Programa_CBW-EVCS
     ```
 
 2.  **Instala las dependencias:**
@@ -75,5 +74,3 @@ Si prefieres ejecutar el proyecto en tu propio ordenador:
 * `ImagenesCreadas/`: Directorio temporal donde se generan las sombras.
 
 ---
-
-Made with ❤️ using **Streamlit** & **Pillow**.
